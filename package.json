@@ -1,0 +1,24 @@
+{
+  "name": "mtm6407-static-site-anaamayah",
+  "version": "1.0.0",
+  "description": "Ana Belen Amaya Hernández Student Number: 041118092 Static site generator: Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaAmayaH/mtm6407-static-site-AnaAmayaH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnaAmayaH/mtm6407-static-site-AnaAmayaH/issues"
+  },
+  "homepage": "https://github.com/AnaAmayaH/mtm6407-static-site-AnaAmayaH#readme",
+  "dependencies": {
+    "posthtml": "^0.16.6"
+  }
+}
