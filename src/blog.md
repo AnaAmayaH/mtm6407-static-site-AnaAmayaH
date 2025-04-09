@@ -1,8 +1,10 @@
 ---
 title: Blog page
-layout: blog.njk
+layout: blog-layout.njk
 ---
-
 # Do you know...
 
-I will share interesting information to you.
+
+
+<p>This blog shares updates, tutorials, and stories about my design journey.</p>
+<p>I will share interesting information with you — stay tuned!</p>

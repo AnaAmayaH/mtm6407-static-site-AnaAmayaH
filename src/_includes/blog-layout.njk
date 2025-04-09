@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog page</title>
+    <title>{{ title }}</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Federo&family=Knewave&family=Pompiere&display=swap" rel="stylesheet">
@@ -57,9 +57,7 @@
     </nav>
 
     <div class="container py-5">
-      <h1>Do you know...</h1>
-<p>This blog shares updates, tutorials, and stories about my design journey.</p>
-<p>I will share interesting information with you — stay tuned!</p>
+      {{ content | safe }}
     </div>
 
     <!-- Bootstrap JS -->
