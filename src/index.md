@@ -1,8 +1,7 @@
 ---
 layout: layout.njk
-title: Bienvenido
+title: Bienvenidos
 ---
 
 # ¡Hola!
-
-Este es mi sitio personal sobre [tu tema favorito]. Aquí comparto cosas que me apasionan.
+Este es el contenido de prueba.
