@@ -2,23 +2,24 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Bienvenidos</title>
+  <title>{{ title }}</title>
 </head>
 <body>
-<header>
- <nav>
+  <header>
+    <h1>Mi Blog</h1>
+     <nav>
   <a href="/">Home</a>
   <a href="/about/">About</a>
   <a href="/photos/">Photos</a>
   <a href="/contact/">Contacto</a>
   <a href="/blog/">Blog</a>
 </nav>
-</header>
+  </header>
   <main>
-    <h1>¡Hola!</h1>
-<p>Este es el contenido de prueba.</p>
-
-   
+    {{ content }}
   </main>
+  <footer>
+    <p>&copy; 2025</p>
+  </footer>
 </body>
 </html>
