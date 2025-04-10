@@ -11,8 +11,8 @@ title: Bienvenidos
 
 <section class="text-white py-5 container">
   <div class="text-center mb-5">
-    <h1 class="display-4 fw-bold">Welcome to My Blog</h1>
-    <p class="lead">A showcase of my work in design, development, and digital creativity.</p>
+    <h1 class="display-4 fw-bold">Welcome to My Site</h1>
+    <p class="lead">A showcase of my work in design, development, and digital creativity, and let´s talk also about life.</p>
   </div>
 
   <div class="row text-center justify-content-center">
