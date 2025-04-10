@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Knewave&family=Pompiere&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        background-color: #28536B;
+        color: #F6F0ED;
+        font-family: 'Pompiere', sans-serif;
+        font-size: 2rem; /* Aumentado */
+      }
+
+      h1 {
+        font-family: 'Knewave', cursive;
+        font-size: 6rem; /* MUY grande */
+      }
+
+      h2 {
+        font-family: 'Federo', serif;
+        font-size: 4rem;
+      }
+
+      p {
+        font-family: 'Pompiere', cursive;
+        font-size: 2.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">My Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#blogNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="blogNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/photos/">Photos</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+      <div class="container text-center text-light py-5">
+  <h1 class="display-1 fw-bold">Welcome to My Blog</h1>
+  <h2 class="display-4 mb-4">Latest Posts</h2>
+  <p class="lead mb-5">This blog shares updates, tutorials, and stories about my design journey. I will share interesting information with you.</p>
+  <!-- Blog entry in a styled card -->
+  <div class="card mx-auto shadow-lg" style="background-color: #B0C4B1; color: #000; max-width: 800px;">
+    <div class="card-body">
+      <h3 class="card-title fw-bold mb-3">My Personal Journey</h3>
+      <p class="card-text fs-4">
+        At 42, I completed a diploma that has been one of the most challenging and rewarding experiences of my life.
+        It helped me grow, pushed me beyond my limits, and made me realize I am capable of more than I ever imagined.
+        One of the most enriching aspects has been meeting people from all over the world and sharing this journey with them.
+      </p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
