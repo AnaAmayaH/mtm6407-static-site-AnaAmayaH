@@ -25,3 +25,37 @@ body {
   main {
     padding: 2em;
   }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* reduce min size */
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+  }
+  
+
+  .photo-card:nth-child(even) {
+    transform: translateX(20px); /* Pushes card slightly right */
+  }
+  
+  .photo-card:nth-child(odd) {
+    transform: translateX(-20px); /* Pushes card slightly left */
+  }
+  
+  .photo-card:hover {
+    transform: scale(1.02);
+  }
+  
+
+  .photo-card {
+    max-width: 60vw; /* 60% del ancho de la pantalla */
+    margin: 2rem auto; /* centrado y con espacio */
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
